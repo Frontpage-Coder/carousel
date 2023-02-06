@@ -1,0 +1,58 @@
+body {
+    background: #bde0fe;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h3, p {
+    text-align: center;
+}
+
+p {
+    max-width: 300px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: 1rem;
+    background: #f1f5f8;
+}
+.btn {
+    cursor: pointer;
+    padding: 0.2rem 1rem;
+    background: #acedf;
+    color: #111;;
+    border: 1px solid #222;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.prev, .nxt {
+    margin: 0 0.5rem;
+}
+
+.surprise {
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center
+}
